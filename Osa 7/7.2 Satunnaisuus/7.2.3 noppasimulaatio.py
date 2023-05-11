@@ -15,7 +15,7 @@ def pelaa(dice1: str, dice2: str, times: int):
         if dice1_win + dice2_win == times or dice1_win + dice2_win + tie == times:
             return (dice1_win, dice2_win, tie)
         else:
-            dice1_win, dice2_win, tie, round = 0, 0, 0, 0
+            dice1_win, dice2_win, tie = 0, 0, 0
 
 if __name__ == "__main__":
     tulos = pelaa("A", "B", 100)
